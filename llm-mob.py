@@ -595,7 +595,9 @@ def main():
     # Parameters
     dataname = "geolife"  # specify the dataset, geolife or fsq.
     num_historical_stay = 40  # M
+    #M 个长期历史stay
     num_context_stay = 5  # N
+    # N个短期stay
     top_k = 10  # the number of output places k
     with_time = False  # whether incorporate temporal information for target stay
     sleep_single_query = 0.1  # the sleep time between queries (after the recent updates, the reliability of the API is greatly improved, so we can reduce the sleep time)
